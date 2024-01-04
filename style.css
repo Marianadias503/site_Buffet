@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;1,200;1,300;1,400&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+nav{
+    display: flex;
+    height: 80px;
+    width: 100%;
+    background-color: white;
+    align-items: center;
+    
+   
+    flex-wrap: wrap;
+}
+.logo{
+    margin-left: 2rem;
+    display: flex;
+    justify-content: center;
+}
+nav ul{
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+   
+}
+
+nav ul li{
+    margin: 0 5px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 15rem;
+}
+
+nav ul li a{
+    color:black;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 5px;
+   transition: all 0.3s ease;
+}
+
+
+nav .menu-btn i{
+    color: #fff;
+    cursor: pointer;
+    display: none;
+}
+@media (max-width: 600px) {
+    .logo{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 2rem;
+        margin-left: 8rem;
+    }
+    nav .menu-btn i{
+        display: block;
+    }
+    nav ul{
+        position: fixed;
+        top: 120px;
+        margin-left: 3rem;
+        text-align: center;
+        display: block;
+        transition: all 0.3s ease;
+    }
+    nav ul.open{
+        left: 0;
+    }
+    nav ul li{
+        width: 100%;
+        margin: 50px 0;
+    }
+    nav ul li a {
+        font-size: 1rem;
+    }
+     
+}
