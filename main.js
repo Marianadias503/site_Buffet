@@ -1,10 +1,14 @@
-var ul = document.querySelector('nav ul');
-var menuBtn = document.querySelector('.menu-btn i');
+const btnmobile = document.getElementsById('btnmobile');
 
-function menuShow() {
-    if (ul.classList.contains('open')) {
-        ul.classList.remove('open');
-    }else{
-        ul.classList.add('open');
-    }
+function toggleMenu(){
+
+    const btnmobile=document.getElementsById('nav');
+    nav.classList.toggle('active')
 }
+
+
+
+
+
+
+btnmobile.addEventListener('click', toggleMenu);
