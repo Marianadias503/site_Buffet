@@ -1,11 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;1,200;1,300;1,400&display=swap');
-*{
+
+
+/*TELA DEKSTOP*/
+
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
-nav{
+
+
+nav {
     display: flex;
     height: 70px;
     width: 100%;
@@ -14,33 +20,32 @@ nav{
     margin-bottom: 2rem;
     flex-wrap: wrap;
 }
-.logo{
+
+.logo {
     margin-left: 2rem;
     display: flex;
     justify-content: center;
 }
-nav ul{
+nav ul {
     display: flex;
     flex-wrap: wrap;
     list-style: none;
-   justify-content: center;
-   align-items: center;
+    justify-content: center;
+    align-items: center;
 }
 
-nav ul li{
-    
-margin-left: 14rem;
-    
+nav ul li {
+    margin-left: 14rem;
 }
 
-nav ul li a{
-    color:black;
+nav ul li a {
+    color: black;
     text-decoration: none;
     font-size: 2rem;
     font-family: 'PT Sans Narrow', sans-serif;
     font-weight: bold;
     border-radius: 15px;
-   transition: all 0.3s ease;
+    transition: all 0.3s ease;
 }
 
 
@@ -54,10 +59,11 @@ nav .menu-btn i{
     max-height: 100%;
 }
 .imagemMenu img {
-    width: 1920px; /* Largura desejada */
-    height: 1080px; 
-    max-width: 100%;
-    max-height: 100%;
+   
+        width: 100%;
+        height: auto;
+    
+    
 }
 .bemvindo{
     font-family: 'Dancing Script', cursive;
@@ -346,6 +352,10 @@ nav .menu-btn i{
 }
 
 
+
+/*
+
+    TELA DE TELEFONE
 
 @media screen and (max-width: 600px) {
     .logo{
