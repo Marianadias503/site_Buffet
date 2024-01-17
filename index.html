@@ -8,6 +8,11 @@
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Damion&family=Dancing+Script&family=PT+Sans+Narrow&display=swap" rel="stylesheet">
     <title>Menu responsivo</title>
+
+
+    <!-- Adicione isso na seção head do seu HTML -->
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2"></script>
+
 </head>
 <body>
     <header>
@@ -23,31 +28,33 @@
         </nav>
     </header>
         <div class="imagemMenu">
-         <!--   <img class="imagem" src="./imagens/Design sem nome (19).png" alt="">-->
             <div class="TextoBoasVindas">
                 <p class="bemvindo"> Bem-Vindo ao </p>
-                <p   class="Buffet">Cristina Queiroz Buffet</p>
+                <p id="textoAnimado"  class="Buffet">Cristina Queiroz Buffet</p>
+                <button id="botaoContato"> <p class="txtContato">Fale Conosco</p></button>
             </div>
         </div>
-        <div class="contato">
-            <button id="botaoContato"> <p class="txtContato">Fale Conosco</p></button>
-        </div>
+       
+        
+        
+           
+           <div class="apresentacaoBuffet">
+          
+            <div class="apresentacaotxt">
+                <p class="entradaTxt">Olá, somos a</p>
+                <p id="textoAnimado" class="buffetnome">Cristina Queiroz Buffet</p>
+                <p class="descricao">Estamos presente no mercado desde 2014, 
+                    transformando nossas receitas em memórias inesquecíveis.
+                    Somos uma empresa especializada em eventos sociais, corporativos e infantis. 
+                    </p>
+                 </div>
+          
 
-        <div class="apresentacaoBuffet">
-       <div class="imgresponsavel"> 
-                <img src="./imagens/Cristina.png" alt="">
-            </div>
-            <p class="entradaTxt">Olá, somos a</p>
-            <p class="NomeBuffet"> Cristina Queiroz Buffet</p>
         </div>     
     </div>
 
-        <div class="descricaoBuffet">
-            <p class="descricao">Estamos presente no mercado desde 2014, 
-                transformando nossas receitas em memórias inesquecíveis.
-                Somos uma empresa especializada em eventos sociais, corporativos e infantis. 
-                </p>
-        </div>
+           
+     
 
         <div class="qualidades">
             <img class="imgFundo" src="./imagens/imagemFundo.png" alt="">
@@ -118,11 +125,24 @@
             <img src="./imagens/imgIlustrativa.png" alt="">
         </div>
 
+        
 
 
+        <p id="textoAnimado" class="Buffet">Cristina Queiroz Buffet</p>
 
 
+        <script>
+            document.addEventListener("DOMContentLoaded", function () {
+              var options = {
+                strings: ["Cristina Queiroz Buffet"], // Adicione outros textos aqui, se desejar
+                typeSpeed: 100, // Velocidade da digitação em milissegundos
+              };
+          
+              var typed = new Typed("#textoAnimado", options);
+            });
+          </script>
+          
 
-   
+
 </body>
 </html>
