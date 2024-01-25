@@ -55,13 +55,13 @@ nav ul li a {
 }
 
 .imagemMenu {
-   background-image: url(./imagens/Design\ sem\ nome\ \(19\).png);
+   background-image: url(./imagens/Design\ sem\ nome\ \(23\).png);
    background-size: 100% ;
    background-position: center center;
    background-repeat: no-repeat;
    width: 100%;
    height: 560px;
-   margin-top: 1rem;
+   margin-top: 0rem;
    padding: 20rem 0 ;
 
 }
@@ -105,12 +105,19 @@ nav ul li a {
     justify-content: center;
     align-items: center;
     border-radius: 50px;
-    padding: 3px 2px;
-    width: 11%;
+    padding: 5px 2px;
+    width: 14%;
     background-color: #d9d9d9bb;
     cursor: pointer;
     
    
+}
+
+#botaoContato :hover{
+    color:#640202;
+     font-weight: bolder;
+    
+    
 }
 
 .txtContato{
@@ -254,7 +261,7 @@ nav ul li a {
 }
 .opcoes button{
     border-radius: 30px;
-    width: 32%;
+    width: 50%;
     margin-left: 4.5rem;
     margin-top: 2rem;
     background-color:rgb(222, 87, 57);
@@ -315,6 +322,9 @@ nav ul li a {
     margin-bottom: 2rem;
    
 }
+.verGaleria button :hover{
+    color: #640202;
+}
 .verGaleria a{
     text-decoration: none;
     list-style: none;
@@ -323,9 +333,9 @@ nav ul li a {
 .txtFotos{
     font-family: 'PT Sans Narrow';
     font-size:2rem;
-     font-weight: 900;
+    font-weight: 900;
     width: 100%;
-    padding: 16px 35px;
+    padding: 14px 35px;
 
 }
 
@@ -334,7 +344,7 @@ nav ul li a {
     justify-content: center;
     align-items: center;
     font-family: 'PT Sans Narrow';
-    margin-top: 5rem;
+    margin-top: 7rem;
     font-size: 5rem;
     font-weight: 900;
 }
@@ -345,7 +355,7 @@ nav ul li a {
     justify-content: center;
     align-items: center;
     font-size: 3rem;
-    margin-top: 1.5rem;
+    margin-top: 1.8rem;
     margin-bottom: 6rem;
 }
 
@@ -375,16 +385,23 @@ nav ul li a {
     color: black;
    display: block;
    margin-left:9rem;
-   margin-top: -5.6rem;
+   margin-top: -5.3rem;
    cursor: pointer;
     
   
 
 }
-.imagemfinal{
+.imgfinal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 100%;
-    height: auto;
 }
+.imagemfinal{
+    width: 80%;
+}
+
+
 
 
 
