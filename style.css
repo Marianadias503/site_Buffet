@@ -138,11 +138,12 @@ nav ul li a {
 .apresentacaoBuffet{
     width: 100%;
     height: auto;
-    background-image: url(./imagens/Cristina.png);
     background-repeat: no-repeat;
     background-size:30% ;
     background-position: start;
     margin-left: 4rem;
+    margin-bottom: 3rem;
+ 
    
 
    
@@ -150,8 +151,10 @@ nav ul li a {
 
 .apresentacaotxt{
     width: 100%;
-    margin-top:5rem;
-    align-items: start;
+    margin-top:-30rem;
+    margin-bottom: 8rem;
+    margin-left: 8rem;
+   
     
 
     
@@ -321,6 +324,7 @@ nav ul li a {
 .verGaleria button{
     border-radius: 50px;
     margin-bottom: 2rem;
+    cursor: pointer;
    
 }
 .verGaleria button :hover{
@@ -380,6 +384,7 @@ nav ul li a {
 
 .txt{
     text-decoration: none;
+    cursor: pointer;
     list-style: none;
     font-family: 'PT Sans Narrow';
     font-size: 3rem;
@@ -387,7 +392,8 @@ nav ul li a {
    display: block;
    margin-left:9rem;
    margin-top: -6rem;
-   cursor: pointer;
+
+  
   
     
   
@@ -414,3 +420,315 @@ nav ul li a {
 
 
 
+@media only screen and (max-width: 767px){
+
+    header li{
+        display: none;
+    }
+
+    header img{
+        padding-top: -1rem; 
+        padding: 1rem;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-left: 6rem;
+        
+    }
+    .imagemMenu {
+        background-image: url(./imagens/Design\ sem\ nome\ \(23\).png);
+        background-size: 100% ;
+        background-position: center center;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 560px;
+        padding: 1rem 0 ;
+        margin-top:-13rem;
+     
+     }
+     .bemvindo{
+        padding-top: 2rem;
+        font-family: 'Dancing Script', cursive;
+        font-size: 2.5rem;
+        font-weight:50;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        color: #fff;
+        
+    }
+    
+    .Buffet{
+        font-family: 'PT Sans Narrow', sans-serif;
+        font-size: 2.2rem;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        color: #fff;
+        font-weight: bold;
+        margin-bottom: 1.3rem;
+       
+    }
+     
+#botaoContato{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    padding: 2px 5px;
+    width: 40%;
+    background-color: #d9d9d9bb;
+  
+    
+   
+}
+.txtContato{
+    font-size: 1.3rem;
+}
+
+.apresentacaoBuffet img{
+    width: 30%;
+}
+.apresentacaoBuffet{
+    width: 100%;
+    height: auto;
+    background-image: url(imagens/Cristina.png);
+    background-repeat: no-repeat;
+    background-size:30% ;
+    background-position: start;
+    margin-left: 4rem;
+    margin-bottom: 3rem;
+ 
+   
+
+   
+}
+
+.apresentacaotxt{
+    width: 100%;
+    margin-top:-20rem;
+    margin-bottom: 8rem;
+    margin-left: -35rem;
+    font-size: 1rem;
+    width: 100%;
+    
+
+    
+
+   
+}
+.apresentacaotxt p{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto;
+    gap: 1px;
+    margin-top: 1px;
+    padding: 1px 45rem;
+    width: 100%;
+    
+}
+.pontoForteBuffet{
+    display: flex;
+    margin-top: 1rem;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    width: 100%;
+    height: auto;
+    margin-bottom: 1rem;
+   
+}
+
+.pontoForteBuffet img{
+    width: 30%;
+}
+.opcoesBuffet{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+
+  
+}
+
+.opcoesBuffet h1{
+    font-family: 'PT Sans Narrow';
+    font-weight: bold;
+    font-size: 3rem;
+    margin-bottom:4rem;
+}
+
+.cardapios  {
+    display: grid;
+    grid-template-columns: 1fr ;
+    gap: 4rem;
+    align-items: center;
+    justify-content: center;
+    padding-left: 4rem;
+}
+
+.opcoes p{
+    font-weight: bold;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+    
+   
+    
+}
+.opcoes button{
+    border-radius: 30px;
+    width: 50%;
+    margin-left:4rem;
+    margin-top: 1rem;
+    background-color:rgb(222, 87, 57);
+    
+    
+}
+.opcoes button :hover{
+    color: #fff;
+}
+
+
+
+.fotos{
+    background-color: #640202;
+    width: 100%;
+    height: auto;
+   
+}
+
+.galeria {
+    margin-top: 3rem;
+    display: flex;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    justify-content: center;
+    align-items: center;
+    font-family: 'PT Sans Narrow';
+    font-weight:900;
+    font-size: 1rem;
+    color: #fff;
+    
+}
+
+.galeriafotos {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    
+ }
+
+ .galeriafotos img{
+    width: 90%;
+    height: auto;
+    margin-left:8px;
+ }
+
+
+.verGaleria {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+
+  
+}
+.verGaleria button{
+    border-radius: 50px;
+    margin-bottom: 2rem;
+   
+   
+}
+
+.verGaleria a{
+    text-decoration: none;
+    list-style: none;
+    color: black;
+}
+.txtFotos{
+    font-family: 'PT Sans Narrow';
+    font-size:1.5rem;
+    font-weight: 900;
+    width: 100%;
+    padding: 14px 35px;
+
+}
+
+.contatos h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'PT Sans Narrow';
+    margin-top: 1rem;
+    font-size: 3rem;
+    font-weight: 900;
+}
+
+.contatos p{
+    font-family: 'PT Sans Narrow';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 4rem;
+}
+
+.logos{
+    display: grid;
+    grid-template-columns: 1fr;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+   margin-left: 5rem;
+    
+
+
+}
+.logos img{
+    width: 8%;
+   
+   
+}
+
+.txt{
+    text-decoration: none;
+    list-style: none;
+    font-family: 'PT Sans Narrow';
+    font-size: 1.3rem;
+    color: black;
+   display: block;
+   margin-left:4rem;
+   margin-top: -2rem;
+
+  
+  
+    
+  
+
+}
+.imgfinal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+   
+}
+.imagemfinal{
+   
+    transform: rotate(360deg);
+    background-image: url(./imagens/a8f6f8f0-c44e-46d5-bc48-2523a5aca86e\ \(1\).png);
+    background-repeat: no-repeat;
+    width: 100%;
+    margin-top: -3rem;
+    
+}
+
+
+
+    
+}
