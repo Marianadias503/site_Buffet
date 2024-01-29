@@ -17,3 +17,11 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     });
 });
+
+//DOMContentLoaded, usado para garantir que o script seja executado somente após o HTML ter sido completamente carregado
+//links.forEach(function(link) {...});: Itera sobre todos os links encontrados na etapa anterior.
+//e.preventDefault();: Impede o comportamento padrão do link, que seria navegar para outra página. Isso é feito para que o script possa controlar o comportamento do clique.
+//var targetId = this.getAttribute('href').substring(1);= pega o atributo do href, e o SUBSTRING(1), remove o #do id e obtem apenas o id
+
+
+
