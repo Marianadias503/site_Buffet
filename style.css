@@ -220,28 +220,36 @@ nav ul li a {
     gap: 4rem;
     width: 100%;
     height: auto;
-    margin-bottom: 7rem;
+    margin-bottom: 3rem;
 
 }
+
 
 .pontoForteBuffet img{
     width: 30%;
 }
+.buffet{
+    background-color: #f8e4e4;
+    width: 100%;
+    height: auto;
+}
+
 .opcoesBuffet{
     display: flex;
     justify-content: center;
     align-items: center;
-    
-
-
-  
+   
 }
 
 .opcoesBuffet h1{
+    padding-top: 1rem;
     font-family: 'PT Sans Narrow';
     font-weight: bold;
     font-size: 6rem;
     margin-bottom: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .cardapios  {
@@ -266,11 +274,12 @@ nav ul li a {
 .opcoes button{
     border-radius: 30px;
     width: 50%;
-    margin-left: 1rem;
-    margin-top: 2rem;
+    margin-left: 3rem;
+    margin-top: 1rem;
     background-color:rgb(222, 87, 57);
     padding: 0;
     cursor: pointer;
+    margin-bottom: 1rem;
     
 }
 .opcoes button :hover{
@@ -287,7 +296,7 @@ nav ul li a {
 }
 
 .galeria {
-    margin-top: 3rem;
+    margin-top: 1rem;
     display: flex;
     margin-bottom: 2rem;
     padding: 1rem;
@@ -412,7 +421,7 @@ nav ul li a {
     background-image: url(./imagens/a8f6f8f0-c44e-46d5-bc48-2523a5aca86e\ \(1\).png);
     background-repeat: no-repeat;
     width: 100%;
-    margin-top: -30rem;
+    margin-top: -1rem;
     
 }
 
@@ -680,47 +689,41 @@ nav ul li a {
     align-items: center;
     font-size: 1rem;
     margin-top: 1rem;
-    margin-bottom: 4rem;
+    margin-bottom: 2rem;
 }
 
 .logos{
     display: grid;
-    grid-template-columns: 1fr;
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: 2rem;
-   margin-left: 5rem;
+    grid-template-columns: 1fr ;
+    gap: 1rem;
+    margin-left: 8rem;
+   
     
 
 
 }
 .logos img{
-    width: 8%;
-   
-   
+    width: 10%;
 }
 
 .txt{
-    text-decoration: none;
-    list-style: none;
-    font-family: 'PT Sans Narrow';
-    font-size: 1.3rem;
-    color: black;
+text-decoration: none;
+   list-style: none;
+   font-family: 'PT Sans Narrow';
+   font-size: 1.3rem;
+   color: black;
    display: block;
    margin-left:4rem;
-   margin-top: -2rem;
-
-  
-  
-    
-  
-
+   margin-top: 1rem;
 }
+
 .imgfinal{
     display: flex;
     justify-content: center;
     align-items: center;
     width: 100%;
+
+    
    
 }
 .imagemfinal{
@@ -729,7 +732,8 @@ nav ul li a {
     background-image: url(./imagens/a8f6f8f0-c44e-46d5-bc48-2523a5aca86e\ \(1\).png);
     background-repeat: no-repeat;
     width: 100%;
-    margin-top: -3rem;
+    
+    
     
 }
 

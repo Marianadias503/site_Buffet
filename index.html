@@ -21,10 +21,10 @@
         <nav>
             <ul>
                 <li> <a href="#" class="active"> Home </a> </li>
-                <li> <a href="#"> Sobre</a> </li>
-                <li> <a href="#"> Serviços</a> </li>
-                <li> <a href="#"> Galeria</a> </li>
-                <li> <a href="#"> Preços</a> </li>
+                <li> <a href="#sobre"> Sobre</a> </li>
+                <li> <a href="#servicos"> Serviços</a> </li>
+                <li> <a href="#galeria"> Galeria</a> </li>
+                <li> <a href="#precos"> Preços</a> </li>
             </ul>
         </nav>
     </header>
@@ -33,11 +33,11 @@
             <div class="TextoBoasVindas">
                 <p class="bemvindo"> Bem-Vindo ao </p>
                 <p id="textoAnimado"  class="Buffet">Cristina Queiroz Buffet</p>
-                <button id="botaoContato"> <p class="txtContato">Fale Conosco</p></button>
+                <button id="botaoContato"> <p class="txtContato" target="_blank">Fale Conosco</p></button>
             </div>
         </div>
     
-        <div id="apresentacao" class="apresentacaoBuffet">
+        <div  id="sobre" class="apresentacaoBuffet">
 
             <img src="./imagens/Cristina.png" alt="">  </div>
           
@@ -60,7 +60,8 @@
             <img src="./imagens/atendimento.png" alt="">
         </div>
 
-     <div class="opcoesBuffet">
+     <div class="buffet">
+        <div id="servicos" class="opcoesBuffet">
             <h1>Opções de buffet</h1>
      </div>
 
@@ -96,9 +97,13 @@
            <button> <p class="cafemanha">Café da manhã</p></button>
            </div>
           
+
+     </div>
+
+     
         </div>
 
-       <div class="fotos">
+       <div  id="galeria" class="fotos">
             <div class="galeria">
            <h1>Nossa galeria</h1>
         </div>
@@ -109,11 +114,11 @@
                 <img src="./imagens/galeria3.png" alt="">
             </div>
             <div class="verGaleria">
-                <button> <a href="//www.instagram.com/cristinaqueiroz_buffet?igsh=cm9zdTBnMGE2bGh3" class="txtFotos">Ver mais</a></button>
+                <button> <a href="//www.instagram.com/cristinaqueiroz_buffet?igsh=cm9zdTBnMGE2bGh3" class="txtFotos" target="_blank" >Ver mais</a></button>
             </div>
         </div>
 
-      <div class="contatos">
+      <div id="precos" class="contatos">
             <h1>Fale Conosco</h1>
             <p>Estamos disponíveis para atendê-lo(a) da melhor forma</p>
         </div>
@@ -121,15 +126,15 @@
         <div class="logos">
             <div class="telefone">
                 <img src="./imagens/logowpp.png" alt="">
-                <a class="txt" href=" ">(31) 99690-0016</a>
+                <a class="txt" href=" " target="_blank">(31) 99690-0016</a>
             </div>
             <div class="instagram">
                 <img src="./imagens/logoinsta.png" alt="">
-                <a class="txt" href="https://www.instagram.com/cristinaqueiroz_buffet?igsh=cm9zdTBnMGE2bGh3">@cristinaqueiroz_buffet</a>
+                <a class="txt" href="https://www.instagram.com/cristinaqueiroz_buffet?igsh=cm9zdTBnMGE2bGh3" target="_blank">@cristinaqueiroz_buffet</a>
             </div>
             <div class="localizacao">
                 <img src="./imagens/logolocalizacao.png" alt="">
-                <a class="txt" href="https://www.google.com.br/maps/place/R.+Raimundo+Rodrigues+Lopes,+466+-+Jardim+Vera+Cruz,+Contagem+-+MG,+32265-200/@-19.9559252,-44.0474417,17z/data=!3m1!4b1!4m6!3m5!1s0xa6be26e82c30b7:0x75b775d14bbf670e!8m2!3d-19.9559252!4d-44.0448668!16s%2Fg%2F11cpm80rdd?entry=ttu">Riacho,Contagem-MG</a>
+                <a class="txt" href="https://www.google.com.br/maps/place/R.+Raimundo+Rodrigues+Lopes,+466+-+Jardim+Vera+Cruz,+Contagem+-+MG,+32265-200/@-19.9559252,-44.0474417,17z/data=!3m1!4b1!4m6!3m5!1s0xa6be26e82c30b7:0x75b775d14bbf670e!8m2!3d-19.9559252!4d-44.0448668!16s%2Fg%2F11cpm80rdd?entry=ttu" target="_blank">Riacho,Contagem-MG</a>
                 
             </div>
        
@@ -140,6 +145,6 @@
           </div>
           
 
-        
+        <script src="main.js" ></script>
 </body>
 </html>
