@@ -220,7 +220,7 @@ nav ul li a {
     gap: 4rem;
     width: 100%;
     height: auto;
-    margin-bottom: 3rem;
+    margin-bottom: 5rem;
 
 }
 
@@ -228,11 +228,7 @@ nav ul li a {
 .pontoForteBuffet img{
     width: 30%;
 }
-.buffet{
-    background-color: #f8e4e4;
-    width: 100%;
-    height: auto;
-}
+
 
 .opcoesBuffet{
     display: flex;
