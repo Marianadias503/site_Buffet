@@ -100,6 +100,10 @@ nav ul li a {
     height: 100%; 
 }
 
+.imagemMenu a{
+    text-decoration: none;
+    list-style: none;
+}
 
 #botaoContato{
     display: flex;
@@ -257,12 +261,15 @@ nav ul li a {
     padding-left: 15rem;
 }
 
-.opcoes p{
+.opcoes a{
     font-weight: bold;
     display: grid;
     align-items: center;
     justify-content: center;
     font-size: 1.2rem;
+    list-style: none;
+    text-decoration: none;
+    color: black;
     
    
     

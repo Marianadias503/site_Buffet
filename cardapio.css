@@ -21,7 +21,29 @@
     align-items: center;
     padding-top: 2rem;
     color: #462319;
+    margin-bottom: 1rem;
+}
+
+.voltar{
     margin-bottom: 10rem;
+    padding-left: 3rem;
+    width: 100%;
+    background-color: transparent;
+    margin-bottom: 10rem;
+}
+
+.voltar a{
+    list-style: none;
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+    font-size: 1rem;
+}
+
+.voltarhome:hover{
+    color: white;
+    background-color: black;
+
 }
 
 .receita {
@@ -31,10 +53,40 @@
     font-weight: bold;
     font-size: 1.5rem;
     color: #542525;
+    margin-bottom: -15rem;
+    
 
 }
+.imagem{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 40rem;
+    margin-bottom: 6rem;
+}
+ .tiragosto{
+    width: 60%;
+ }
 
+ .contrate{
+    width: 100%;
+    height: auto;
+    padding: 1rem ;
+    padding-left: 40rem;
+    justify-content: center;
+    align-items: center;
+    background-color: #640202;
+ }
 
+ .contrate button{
+    border-radius: 5px;
+    padding: 10px;
+ }
 
-
-
+ .contrate a{
+    list-style: none;
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+    font-size: 1rem;
+ }
