@@ -139,32 +139,32 @@ nav ul li a {
 
 
 .descricaoResponsavel{
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     justify-content: center;
     align-items: center;
-    background-color: #f4f4f4;
-
+    background-color: #ebe7e7;
+    border: 2px solid green;
+    padding-right: 80px;
 
 }
 .apresentacaoBuffet{
    
    width: 100%;
    height: auto;
-   image-rendering:optimizeQuality;
    padding-bottom: 3%;
+   
 
-
+ 
 
    
 }
 
  
 .apresentacaoTxt p{
-
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
-   
-   
+
 
   
 }
@@ -211,57 +211,60 @@ nav ul li a {
 }
 
 
-.opcoesBuffet{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-   
-}
 
-.opcoesBuffet h1{
-    padding-top: 1rem;
+#servicos{
+    margin-top: 10rem;
     font-family: 'PT Sans Narrow';
     font-weight: bold;
-    font-size: 6rem;
+    font-size: 2rem;
     margin-bottom: 5rem;
     display: flex;
     justify-content: center;
     align-items: center;
+    
 }
-
-.cardapios  {
+.cardapios {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    gap: 4rem;
+    gap: 8rem;
     align-items: center;
     justify-content: center;
-    padding-left: 15rem;
+    padding-left: 12%;
+    padding-top: 10px;
 }
 
-.opcoes a{
-    font-weight: bold;
-    display: grid;
-    align-items: center;
+.cardapios img {
+    
+    max-width: 100%;
+    height: auto;
+    display: flex; /* Para centralizar a imagem horizontalmente */
     justify-content: center;
+    margin-bottom: 7px; /* Para centralizar a imagem horizontalmente */
+}
+
+.opcoes a {
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
     font-size: 1.2rem;
     list-style: none;
     text-decoration: none;
     color: black;
-    
-   
-    
+    width: 100%;
+  
 }
-.opcoes button{
+
+.opcoes button {
     border-radius: 30px;
-    width: 50%;
-    margin-left: 3rem;
-    margin-top: 1rem;
-    background-color:rgb(222, 87, 57);
+    width: 60%;
+    background-color: rgb(222, 87, 57);
     padding: 0;
     cursor: pointer;
-    margin-bottom: 1rem;
-    
+    margin-bottom: 20px;
 }
+
 .opcoes button :hover{
     color: #fff;
 }
@@ -443,27 +446,22 @@ height: auto;
     }
 
     header img{
-        padding-top: -1rem; 
-        padding: 1rem;
+ 
         width: 100%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        padding-left: 6rem;
+         margin-left: 100%;
+        margin-top: 10px;
+
         
     }
     .imagemMenu {
+        border: 2px solid blue;
         background-image: url(./imagens/Design\ sem\ nome\ \(23\).png);
-        background-size: 100% ;
-        background-position: center center;
-        background-repeat: no-repeat;
-        width: 100%;
-        height: 560px;
-        padding: 1rem 0 ;
-        margin-top:-13rem;
+        
+        
      
      }
      .bemvindo{
+        border: 2px solid red;
         padding-top: 2rem;
         font-family: 'Dancing Script', cursive;
         font-size: 2.5rem;
