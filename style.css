@@ -58,7 +58,7 @@ nav ul li a {
 .imagemMenu {
    background-image: url(./imagens/Design\ sem\ nome\ \(23\).png);
    background-size: 100% ;
-   background-position: center center;
+ 
    background-repeat: no-repeat;
    width: 100%;
    height: 560px;
@@ -145,7 +145,7 @@ nav ul li a {
     align-items: center;
     background-color: #ebe7e7;
     border: 2px solid green;
-    padding-right: 80px;
+
 
 }
 .apresentacaoBuffet{
@@ -339,7 +339,7 @@ nav ul li a {
 .contatos{
     
     display: block;
-    margin-top: 10px;
+    margin-top: 50px;
     margin-left: 50%;
  
 
@@ -439,6 +439,37 @@ height: auto;
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media only screen and (max-width: 767px){
 
     header li{
@@ -449,26 +480,29 @@ height: auto;
  
         width: 100%;
          margin-left: 100%;
-        margin-top: 10px;
+        margin-top: 40px;
 
-        
+    ;
     }
     .imagemMenu {
         border: 2px solid blue;
         background-image: url(./imagens/Design\ sem\ nome\ \(23\).png);
-        
+        border: 2px solid red;
+        padding: 0; /* Remover padding */
+        margin: 0; /* Remover margem */
+        height: 200px; /* ou ajuste para a altura desejada */
+    }
+    
         
      
-     }
+     
      .bemvindo{
-        border: 2px solid red;
-        padding-top: 2rem;
+        
+        margin-top: 1rem;
         font-family: 'Dancing Script', cursive;
         font-size: 2.5rem;
         font-weight:50;
-        display:flex;
-        justify-content: center;
-        align-items: center;
+      
         color: #fff;
         
     }
@@ -482,7 +516,7 @@ height: auto;
         color: #fff;
         font-weight: bold;
         margin-bottom: 1.3rem;
-       
+         
     }
      
 #botaoContato{
@@ -497,22 +531,29 @@ height: auto;
     
    
 }
+
+.descricaoResponsavel{
+    display: block;
+   padding-left: 30px;
+
+}
+
 .txtContato{
     font-size: 1.3rem;
 }
 
 .apresentacaoBuffet img{
-    width: 30%;
+    width: 56%;
+    justify-content: center;
+  
 }
 .apresentacaoBuffet{
     width: 100%;
     height: auto;
-    background-image: url(imagens/Cristina.png);
-    background-repeat: no-repeat;
-    background-size:30% ;
-    background-position: start;
-    margin-left: 4rem;
-    margin-bottom: 3rem;
+   
+
+
+   
  
    
 
@@ -567,12 +608,15 @@ height: auto;
 
   
 }
+#servicos{
+    margin-top: 0;
+}
 
 .opcoesBuffet h1{
     font-family: 'PT Sans Narrow';
     font-weight: bold;
     font-size: 3rem;
-    margin-bottom:2rem;
+   
 }
 
 .cardapios  {
@@ -596,7 +640,7 @@ height: auto;
 }
 .opcoes button{
     border-radius: 30px;
-    width: 90%;
+    width: 100%;
     margin-left:-1rem;
     margin-top: 1rem;
     background-color:rgb(222, 87, 57);
@@ -677,50 +721,33 @@ height: auto;
 
 }
 
+ 
+#precos{
+    width: 400px;
+}
+
+.contatoFinal{
+ 
+    padding-right:170px;
+}
 .contatos h1{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+
+    
     font-family: 'PT Sans Narrow';
-    margin-top: 1rem;
+   
     font-size: 3rem;
     font-weight: 900;
 }
 
 .contatos p{
+
     font-family: 'PT Sans Narrow';
-    display: flex;
-    justify-content: center;
-    align-items: center;
+
     font-size: 1rem;
     margin-top: 1rem;
-    margin-bottom: 2rem;
-}
-
-.logos{
-    display: grid;
-    grid-template-columns: 1fr ;
-    gap: 1rem;
-    margin-left: 8rem;
-   
     
-
-
 }
-.logos img{
-    width: 10%;
-}
-
-.txt{
-text-decoration: none;
-   list-style: none;
-   font-family: 'PT Sans Narrow';
-   font-size: 1.3rem;
-   color: black;
-   display: block;
-   margin-left:4rem;
-   margin-top: 1rem;
-}
+ 
 
 .imgfinal{
     display: flex;
@@ -731,13 +758,36 @@ text-decoration: none;
     
    
 }
+.logos {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    margin-left: 5px;
+    justify-content: center; /* Alinha os itens horizontalmente ao centro */
+    align-items: center; /* Alinha os itens verticalmente ao centro */
+}
+
+.logos img {
+    width: 50%;
+}
+
+.txt {
+    text-decoration: none;
+    list-style: none;
+    font-family: 'PT Sans Narrow';
+    font-size: 1rem;
+    color: black;
+    display: block;
+ 
+    margin-left: 15px;
+}
+
 .imagemfinal{
    
     transform: rotate(360deg);
     background-image: url(./imagens/a8f6f8f0-c44e-46d5-bc48-2523a5aca86e\ \(1\).png);
     background-repeat: no-repeat;
     width: 100%;
-    
     
     
 }
