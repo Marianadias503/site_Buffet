@@ -144,7 +144,7 @@ nav ul li a {
     justify-content: center;
     align-items: center;
     background-color: #ebe7e7;
-    border: 2px solid green;
+   
 
 
 }
@@ -485,9 +485,9 @@ height: auto;
     ;
     }
     .imagemMenu {
-        border: 2px solid blue;
+  
         background-image: url(./imagens/Design\ sem\ nome\ \(23\).png);
-        border: 2px solid red;
+       
         padding: 0; /* Remover padding */
         margin: 0; /* Remover margem */
         height: 200px; /* ou ajuste para a altura desejada */
@@ -538,6 +538,7 @@ height: auto;
 
 }
 
+
 .txtContato{
     font-size: 1.3rem;
 }
@@ -545,6 +546,7 @@ height: auto;
 .apresentacaoBuffet img{
     width: 56%;
     justify-content: center;
+    margin-left: 10px;
   
 }
 .apresentacaoBuffet{
