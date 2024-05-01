@@ -55,7 +55,7 @@
 
 .receita {
    position: absolute;
- top: 50%;
+ top: 40%;
     margin-left: 70rem;
    font-family: 'PT Sans Narrow', sans-serif;
     font-weight:700;
@@ -117,17 +117,16 @@
 
  
 @media only screen and (max-width: 767px){
-    .header{
+      .header {
         display: flex;
+        flex-direction: column;
         justify-content: center;
         align-items: center;
-        width: 100%;
         height: 80px;
-        background-color:#640202;;
+        background-color: #640202;
         padding-top: 6rem;
-       
-    
     }
+
     
     .titulo{
         display: flex;
@@ -160,9 +159,9 @@
     
     }
     .sobremesa{
+      
 
-
-        margin-top: 20%;
+        margin-top:25%;
         width: 30%;
     
         
@@ -175,12 +174,13 @@
         font-weight: bold;
         font-size: 1rem;
         color: #542525;
-       margin-left: 35%;
-    
+       margin-left: 39%;
+   
        color: white;
         width: 60%;
-        line-height: 20px;
-        border: 1px solid blue;
+        line-height:25px;
+        margin-top: 0%;
+ 
       
         
     
@@ -194,7 +194,7 @@
     }
    
     .contrate{
-        margin-top: 33%;
+        margin-top: 25%;
     }
 
 
